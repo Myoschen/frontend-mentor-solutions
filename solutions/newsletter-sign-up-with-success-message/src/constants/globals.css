@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url("/src/assets/fonts/Roboto-Regular.ttf");
+  }
+  @font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url("/src/assets/fonts/Roboto-Bold.ttf");
+  }
+}
+
+@layer base {
+  :root {
+    --primary: 4 100% 67%;
+    --dark-slate-grey: 234 29% 20%;
+    --charcoal-grey: 235 18% 26%;
+    --grey: 231 7% 60%;
+    --white: 0 0% 100%;
+  }
+}
