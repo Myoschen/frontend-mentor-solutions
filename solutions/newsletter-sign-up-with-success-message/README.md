@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [TODO]()
-- Live Site URL: [TODO]()
+- Solution URL: <https://github.com/Myoschen/frontend-mentor-solutions/tree/main/solutions/newsletter-sign-up-with-success-message>
+- Live Site URL: <https://frontend-mentor-solutions-chi.vercel.app>
 
 ## My process
 
