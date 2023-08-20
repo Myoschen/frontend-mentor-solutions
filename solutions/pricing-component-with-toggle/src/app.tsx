@@ -33,7 +33,7 @@ export default function App() {
   return (
     <main
       className={
-        'relative isolate min-h-screen overflow-hidden bg-grayish-blue-100 px-6 py-16 font-bold lg:py-10'
+        'relative isolate min-h-screen overflow-hidden bg-grayish-blue-100 px-6 py-16 font-bold'
       }
     >
       <img
@@ -53,7 +53,7 @@ export default function App() {
       {/* Title */}
       <h1
         className={
-          'mb-12 text-center text-3xl tracking-wide text-grayish-blue-500 lg:mb-8'
+          'mb-12 text-center text-3xl tracking-wide text-grayish-blue-500'
         }
       >
         {'Our Pricing'}
@@ -62,12 +62,17 @@ export default function App() {
       {/* Switch */}
       <div
         className={
-          'mb-16 flex items-center justify-center gap-x-6 text-[15px] text-grayish-blue-300 lg:mb-12'
+          'mb-16 flex items-center justify-center gap-x-6 text-[15px] text-grayish-blue-300'
         }
       >
-        <label htmlFor={'type'}>{'Annually'}</label>
-        <Switch id={'type'} checked={checked} onCheckedChange={setChecked} />
-        <label htmlFor={'type'}>{'Monthly'}</label>
+        <label htmlFor={'switch'}>{'Annually'}</label>
+        <Switch
+          id={'switch'}
+          aria-label={'Annually Or Monthly'}
+          checked={checked}
+          onCheckedChange={setChecked}
+        />
+        <label htmlFor={'switch'}>{'Monthly'}</label>
       </div>
 
       {/* Pricing plans */}

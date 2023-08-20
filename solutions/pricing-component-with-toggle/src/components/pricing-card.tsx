@@ -23,14 +23,14 @@ export default function PricingCard({
           : 'bg-white',
       )}
     >
-      <h3
+      <h2
         className={cn(
           'mb-6 block text-center text-lg capitalize',
           featured ? 'text-white' : 'text-grayish-blue-500',
         )}
       >
         {level}
-      </h3>
+      </h2>
       <div
         className={cn(
           'mb-8 flex items-center justify-center gap-x-1',
