@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: <https://github.com/Myoschen/frontend-mentor-solutions/tree/main/solutions/pricing-component-with-toggle>
+- Live Site URL: <https://frontend-mentor-solutions-zk1e-8dolcrh3s-myoschen.vercel.app/>
 
 ## My process
 
